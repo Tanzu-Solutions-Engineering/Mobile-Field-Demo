@@ -3,6 +3,11 @@
 This document outlines the steps required to demo Pivotal Cloud Foundry Mobile Services using the Transit Application
 created by the Mobile development team.
 
+=== The Transit Mobile App
+The Transit App for IOS is a sample app which shows the public transportation routes for the city of Toronto. 
+This app combines the Pivotal Cloud Foundry platform along with the Pivotal Mobile Services, namely Data Sync, Push Notification
+and Api Gateway.
+
 == Assumptions
 
 * Existing PCF Installation
@@ -10,11 +15,6 @@ created by the Mobile development team.
 * Existing Pre registered App for APNS Notifications
 * Existing Pre-configured Mobile Push Notification, Data Sync and
 * Existing Pre-configured API Gateway Spring Cloud App to pull NextBus Webservices Routes
-
-=== The Transit Mobile App
-The Transit App for IOS is a sample app which shows the public transportation routes for the city of Toronto. 
-This app combines the Pivotal Cloud Foundry platform along with the Pivotal Mobile Services, namely Data Sync, Push Notification
-and Api Gateway 
 
 == Getting Started
 
