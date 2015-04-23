@@ -1,7 +1,6 @@
 = Pivotal CF Mobile Services Field Demo
 
-This document outlines the steps required to demo Pivotal Cloud Foundry Mobile Services using the Transit Application
-created by the Mobile development team.
+This document outlines the steps required to demo Pivotal Cloud Foundry Mobile Services using the Transit Application.
 
 === The Transit Mobile App
 The Transit App is a sample mobile application which shows the public transportation routes for the city of Toronto. 
