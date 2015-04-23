@@ -1,9 +1,8 @@
 = Pivotal CF Mobile Services Field Demo
-
+This document outlines the steps required to demo Pivotal Cloud Foundry Mobile Services using the Transit Application
+created by the Mobile development team.
 
 == Assumptions
-
-Students will have completed the following courses on Pivotal Academy:
 
 * Existing PCF Installation
 * Existing Pre-configured Mobile Services
@@ -11,21 +10,12 @@ Students will have completed the following courses on Pivotal Academy:
 * Existing Pre-configured Mobile Push Notification, Data Sync and
 * Existing Pre-configured API Gateway Spring Cloud App to pull NextBus Webservices Routes
 
-=== Student Set Up
+=== The Transit Mobile App
+The Transit App for IOS is a sample app which shows the public transportation routes for the city of Toronto. 
+This app combines the Pivotal Cloud Foundry platform along with the Pivotal Mobile Services, namely Data Sync, Push Notification
+and Api Gateway 
 
-* Follow the instructions on link:student-setup.adoc[Student Set Up].  This is crucial to your success in the course.
-
-== Associate Certification
-
-=== Success Criteria
-
-* Students will be allowed to pair during the class but each have to submit their own completed exercises.
-
-* Students are expected to complete every exercise.
-
-* Artifacts must be pushed by students into their own fork of the `pcf-immersion-workspace` for review.
-
-* Students must complete the *QUIZ*.  It is highly recommended you complete the questions as you work on each module.
+== Getting Started
 
 === Agenda
 
@@ -41,13 +31,3 @@ Students will have completed the following courses on Pivotal Academy:
 
 . link:service-broker/README.adoc[Deploying a Custom Service Broker]
 
-== Material Format Philosophy
-
-* *Presentations* introduce concepts.  They should not provide detail and never reformat the same content available on the docs site as bullets.  Heavily bulleted presentations tend to be boring so we favor animation.  Well rehearsed animation illustrates and explains concepts with very few words (see Onsi’s talk on Diego at link:https://www.youtube.com/watch?v=1OkmVTFhfLY[CF Summit]).
-+
-*Note*: Powerpoint versions of the presentations are included.  These are exported from Keynote and may have formatting issues.
-+
-
-* *Docs* are for detail.  Students should get in the habit of reading and referring to the docs site.  Open book "quizzes" in the curriculum help ensure students read the docs.
-
-* *Asciidoc* docs in git define the course, links and work.  They are easy to edit, format and navigate.
