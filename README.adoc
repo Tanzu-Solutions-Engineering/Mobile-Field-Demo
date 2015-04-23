@@ -6,8 +6,13 @@ created by the Mobile development team.
 === The Transit Mobile App
 The Transit App is a sample mobile application which shows the public transportation routes for the city of Toronto. 
 This app combines the Pivotal Cloud Foundry platform with the Pivotal Mobile Services, namely Data Sync, Push Notification
-and Api Gateway to give a mobile user the ability to create bus routes of interest and receive push notifications based on
-live feeds from the NextBus. link:http://www.nextbus.com/predictor/stopSelector.jsp?a=ttc[NextBus] is a thrid party web service which delivers information
+and Api Gateway to give a mobile user the ability to create bus routes of interest and receive push notifications based on 
+predictions. The transit application consist of the following components.
+==== Transit iOS App
+==== Transit Sample API Gateway
+==== Transit Sample Scheduler
+
+link:http://www.nextbus.com/predictor/stopSelector.jsp?a=ttc[NextBus] is a thrid party web service which delivers information
 
 image:./images/Transit_App.png[Tranist App Architecture]:Transit App Architecture
 
