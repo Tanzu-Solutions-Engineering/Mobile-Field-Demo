@@ -8,7 +8,7 @@ The Transit App for IOS is a sample app which shows the public transportation ro
 This app combines the Pivotal Cloud Foundry platform along with the Pivotal Mobile Services, namely Data Sync, Push Notification
 and Api Gateway.
 
-image:./images/transit.png[Tranist App Architecture]
+image:./images/Transit_App.png[Tranist App Architecture]
 : Transit App Architecture
 
 == Assumptions
