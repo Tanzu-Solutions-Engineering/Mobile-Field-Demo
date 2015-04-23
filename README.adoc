@@ -10,10 +10,21 @@ and Api Gateway to give a mobile user the ability to create bus routes of intere
 predictions. The transit application consist of the following components.
 
 ==== Transit iOS App
+The transit iOS mobile app authenicates users after launch using the data synch authenication service and then retrieves
+existing saved bus routes from the data synch mobile service.
+
 ==== Transit Sample API Gateway
+The transit sample API gateway application makes external web service calls to the NextBus web service and performs XML->JSON
+translation. This application is deployed into Pivotal Cloud Foundry into an organization and space is and bound to the API Gateway
+service.
+
 ==== Transit Sample Scheduler
+The transit sample scheduler application is a ruby based application that reviews the stop predictions and sends push notifications
+to mobile users that registered with those bus routes.
+
 ==== NextBus Web Service
-link:http://www.nextbus.com/predictor/stopSelector.jsp?a=ttc[NextBus] is a thrid party web service which delivers information
+link:http://www.nextbus.com/predictor/stopSelector.jsp?a=ttc[NextBus] is a thrid party web service which delivers a list of bus
+routes, service alerts and predictions. It is used by the API Gateway to retrieve service information about mobile user routes.
 
 image:./images/Transit_App.png[Tranist App Architecture]:Transit App Architecture
 
