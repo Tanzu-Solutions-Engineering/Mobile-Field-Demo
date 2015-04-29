@@ -27,7 +27,7 @@ to mobile users that registered with those bus routes. The demo environment alre
 link:http://www.nextbus.com/predictor/stopSelector.jsp?a=ttc[NextBus] is a thrid party web service which delivers a list of bus
 routes, service alerts and predictions. It is used by the API Gateway to retrieve service information about mobile user routes.
 
-image:./images/Transit_App.png[Tranist App Architecture]:Transit App Architecture
+image:./images/Transit_App.png[Tranist App Architecture]
 
 == Demo Environment
 The demo environment has the following Pivotal products installed and ready for you to demo. This environment is typically the latest 
