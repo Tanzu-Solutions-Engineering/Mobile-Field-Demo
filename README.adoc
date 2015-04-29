@@ -8,10 +8,11 @@ This app combines the Pivotal Cloud Foundry platform with the Pivotal Mobile Ser
 and Api Gateway to give a mobile user the ability to create bus routes of interest and receive push notifications based on 
 predictions. The transit application consist of the following components:
 
-==== Transit iOS App
-The transit iOS mobile application provides a simple way to register for bus routes of interest and receive notifications when
+==== Transit Application
+The transit mobile application provides a simple way to register for bus routes of interest and receive notifications when
 a route is predicted to route late. The application authenicates users after launch using the data synch authenication service 
-and retrieves existing user-saved bus routes from the data synch mobile service.
+and retrieves existing user-saved bus routes from the data synch mobile service. There is native applicaiton for iOS and Android
+devices. 
 
 ==== Transit Sample API Gateway
 The transit sample API gateway application makes external web service calls to the NextBus web service and performs XML->JSON
