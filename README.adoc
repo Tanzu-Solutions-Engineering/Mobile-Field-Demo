@@ -17,11 +17,11 @@ devices.
 ==== Transit Sample API Gateway
 The transit sample API gateway application makes external web service calls to the NextBus web service and performs XML->JSON
 translation. This application is deployed into Pivotal Cloud Foundry into an organization and space is and bound to the API Gateway
-service.
+service. The demo environment already has this application deployed.
 
 ==== Transit Sample Scheduler
 The transit sample scheduler application is a ruby based application that reviews the stop predictions and sends push notifications
-to mobile users that registered with those bus routes.
+to mobile users that registered with those bus routes. The demo environment already has this application deployed.
 
 ==== NextBus Web Service
 link:http://www.nextbus.com/predictor/stopSelector.jsp?a=ttc[NextBus] is a thrid party web service which delivers a list of bus
@@ -29,13 +29,15 @@ routes, service alerts and predictions. It is used by the API Gateway to retriev
 
 image:./images/Transit_App.png[Tranist App Architecture]:Transit App Architecture
 
-== Assumptions
+== Demo Environment
+The demo environment has the following Pivotal products installed and ready for you to demo. This environment is typically the latest 
+GA products and is pre-confogured with the external vender services like Apple Push Notification Service (APNS)
 
-* Existing PCF Installation
-* Existing Pre-configured Mobile Services
-* Existing Pre registered App for APNS Notifications
-* Existing Pre-configured Mobile Push Notification, Data Sync and
-* Existing Pre-configured API Gateway Spring Cloud App to pull NextBus Webservices Routes
+* Pivotal Operations Manager
+* Pivotal Cloud Foundry (Elastic Runtime)
+* Pivotal Data Synch
+* Pivotal API Gateway
+* Pivotal Push Notification
 
 == Getting Started
 
