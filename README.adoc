@@ -15,24 +15,24 @@ This document outlines the steps required to demo Pivotal Cloud Foundry Mobile S
 
 image:./images/PCF_MobileService.png[Mobile Services on Cloud Foundry]
 
-. Data Sync
+* Data Sync
 
-   Mobile Optimized API's for cloud based data storage service which can sync data across devices and uses federated (Oauth) identity.
+Mobile Optimized API's for cloud based data storage service which can sync data across devices and uses federated (Oauth) identity.
 
-. API Gateway
+* API Gateway
 
-  Deliver mobile-optimized, device specific content from backend microservices on a cloud scale and manage the interface lifecycle through versioning.
+Deliver mobile-optimized, device specific content from backend microservices on a cloud scale and manage the interface lifecycle through versioning.
 
 
-. Push Notification
+* Push Notification
 
-    Push Notification service at cloud scale and across platforms with granular control over the data, tags and devices.
+Push Notification service at cloud scale and across platforms with granular control over the data, tags and devices.
 
-. App Distribution
+* App Distribution
 
-  Enable testers to easily download developer versions of apps over-the-air (OTA) to mobile devices and
+Enable testers to easily download developer versions of apps over-the-air (OTA) to mobile devices and
 
-  { Question is this just for Testers like Hockey App or a full MDM?}
+{ Question is this just for Testers like Hockey App or a full MDM?}
 
 
 
