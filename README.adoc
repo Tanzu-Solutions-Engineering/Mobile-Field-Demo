@@ -39,8 +39,8 @@ Enable testers to easily download developer versions of apps over-the-air (OTA) 
 For more detailed Technical Deck, refer to the pitch deck from Product Manager: link:https://drive.google.com/open?id=0B0FpBXIzbQ9pemtFQkowUzhmaG8&authuser=0[Mobile Pitch Deck]
 
 
-=== What we are going to see
-Case for Microservices based architecture for Agile Mobile Application Delivery
+=== What we are going to see?
+==== Case for Microservices based architecture for Agile Mobile Application Delivery
 
 Mobile app development is agile and fast changing as new market demands and customer requirements come in. Organization building great mobile apps, have a agile team  interfacing with the backend application teams which are slow to react. Hence building and exposing backend services as microservices at a cloud scale and consuming them
 
@@ -138,7 +138,7 @@ Ops Manager Tiles for Push Notification, Data Sync and API Gateway
 { Screen Shots}
 
 
-=== What we saw
-Microservices based architecture for Agile Mobile App Delivery using Cloud Foundry
+=== What we saw today ...
+==== Microservices based architecture for Agile Mobile App Delivery using Cloud Foundry
 
 === Q/A
