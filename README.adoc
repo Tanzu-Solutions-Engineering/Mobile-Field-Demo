@@ -46,6 +46,14 @@ Mobile app development is agile and fast changing as new market demands and cust
 
 Pivotal has build great applications of many organizations over XXX years and build reusable platform microservices which are used by everyone in the industry. These microservices are available at a cloud scale on Pivotal Cloud Foundry.
 
+Gartner predicts that Emerging cloud mobile back-end services threaten to replace mobile middleware for
+enterprise mobile app developers. As mBaaS services mature, the entry of general-purpose middleware and PaaS
+vendors into the mobile market will expand the options for mobile development leaders and architects, resulting in best-in-class specialized cloud mobile services as opposed to bundles of services.
+
+link:https://sites.google.com/a/pivotal.io/analyst-relations/agile-apps/gartner-thetransformationofmobilemiddleware-internal/The%20Transformation%20of%20Mobile%20Middleware.pdf?attredirects=0[Gartner Note]
+
+
+
 === Transit App - Big Picture
 
 image:./images/Transit_App.png[Transit App Architecture]
