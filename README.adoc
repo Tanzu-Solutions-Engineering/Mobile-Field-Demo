@@ -46,10 +46,6 @@ Mobile app development is agile and fast changing as new market demands and cust
 
 Pivotal has build great applications of many organizations over XXX years and build reusable platform microservices which are used by everyone in the industry. These microservices are available at a cloud scale on Pivotal Cloud Foundry.
 
- (Application Portfolio Screenshot)
-{ Link to Gartner Note on Mobile Services on Cloud}
-
-
 === Transit App - Big Picture
 
 image:./images/Transit_App.png[Transit App Architecture]
