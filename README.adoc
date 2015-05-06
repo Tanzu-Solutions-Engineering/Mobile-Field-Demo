@@ -59,7 +59,7 @@ link:https://sites.google.com/a/pivotal.io/analyst-relations/agile-apps/gartner-
 
 === Transit App - Big Picture
 
-image:./images/Transit_App.png[Transit App Architecture]
+image:./images/Transit App Architecture.png[Transit App Architecture]
 
 ==== The Transit Mobile App
 The Transit App is a sample mobile application which shows the public transportation routes for the city of Toronto.
