@@ -120,7 +120,7 @@ User/Password: demo/mobiledemo@123
 
 === Steps:
 
-Pre-requsite: 
+Pre-requisite: 
 
 Download the App from the XLStudio App Distribution
 
