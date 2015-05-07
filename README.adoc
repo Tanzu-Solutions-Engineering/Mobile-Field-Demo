@@ -147,26 +147,43 @@ To delete a Route, swipe the Route left, and you will see the delete button. To 
 
 image:./images/Transit-App-4.png[Clear Route,scaledheight=30%]
 
-
-Google Notification Workflow
-
-Apple Push Notification Workflow
-
-
-
 === Behind the scenes - Microservices on the cloud platform
+The Transit mobile backend uses various Pivotal mobile services on the Pivotal Cloud Foundry Platform. 
 
+image:./images/Transit-App-5.png[Mobile Backend Design]
+
+
+==== Datasync
+The Mobile App uses the Pivotal Data-sync mobile services to save user preferences, routes across devices. 
+
+image:./images/Transit-App-6.png[Mobile Data-sync Workflow]
+
+
+image:./images/Transit-App-10.png[Mobile Data-sync Services on Pivotal Cloud Foundry]
+
+
+==== API Gateway
+
+image:./images/Transit-App-7.png[API Gateway Workflow]
+
+image:./images/Transit-App-8.png[NextBus Transformation]
+
+
+==== Push Notification
 Pivotal Cloud Foundry Push Notification Dashboards and Services
-{ Screen shots}
+
+image:./images/Transit-App-9.png[Push Notification Workflow]
+
+image:./images/Transit-App-11.png[Push Notification Services]
 
 
-Data Sync Dashboard and Services
+image:./images/Transit-App-16.png[Test Push Message]
 
-{ Screen Shots}
 
-Ops Manager Tiles for Push Notification, Data Sync and API Gateway
+==== Ops Manager
+Pivotal Cloud Foundry Ops Manager Configuration for Mobile Services
 
-{ Screen Shots}
+image:./images/Transit-App-15.png[Ops Manager]
 
 
 === What we saw today ...
