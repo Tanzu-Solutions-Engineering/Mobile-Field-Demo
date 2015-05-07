@@ -58,21 +58,28 @@ image:./images/Gartner.png[Mobile Services on Cloud Foundry]
 For more details refer to the Gartner Research note here link:https://sites.google.com/a/pivotal.io/analyst-relations/agile-apps/gartner-thetransformationofmobilemiddleware-internal/The%20Transformation%20of%20Mobile%20Middleware.pdf?attredirects=0[Gartner Note]
 
 
-Pivotal Labs has built 100's of Mobile Apps using these design principles of Microservices and delivered them on Pivotal Cloud Foundry. Dwayne Forde from the Cloud Foundry Mobile Services team at Pivotal discusses in this blog post link:http://blog.pivotal.io/cloud-foundry-pivotal/case-studies-2/how-pivotal-performs-continuous-delivery-of-mobile-services[How Pivotal Performs Continuous Delivery of Mobile Services] and the role of Pivotal Cloud Foundry "Continuous Integration (CI) and Continuous Delivery (CD) play a large role in Pivotal’s agile engineering culture. Integration testing can be simulated in many different ways, but when it comes to Mobile Services, the only viable solution is to use real devices. We have implemented a method that offers an automated 360 view of our product quality throughout the development process, from the installation of a tile in Pivotal Cloud Foundry Ops Manager to delivery of end-user mobile applications that use products such as the Push Notification Service."
+Pivotal Labs has built 100's of Mobile Apps using these design principles of Microservices and delivered them on Pivotal Cloud Foundry. Dwayne Forde from the Cloud Foundry Mobile Services team at Pivotal discusses in this blog post link:http://blog.pivotal.io/cloud-foundry-pivotal/case-studies-2/how-pivotal-performs-continuous-delivery-of-mobile-services[How Pivotal Performs Continuous Delivery of Mobile Services] on Pivotal Cloud Foundry:
 
+-----
+"Continuous Integration (CI) and Continuous Delivery (CD) play a large role in Pivotal’s agile engineering culture. Integration testing can be simulated in many different ways, but when it comes to Mobile Services, the only viable solution is to use real devices. We have implemented a method that offers an automated 360 view of our product quality throughout the development process, from the installation of a tile in Pivotal Cloud Foundry Ops Manager to delivery of end-user mobile applications that use products such as the Push Notification Service."
+-----
 
+We are going to see how a sample mobile Transit App uses the Pivotal Cloud Foundry Mobile Services and Microservices based architecture. 
 
 === Transit App on Pivotal Cloud Foundry - Big Picture
-
-image:./images/Transit App Architecture.png[Transit App Architecture]
-
 ==== The Transit Mobile App
 The Transit App is a sample mobile application which shows the public transportation routes for the city of Toronto.
 This app combines the Pivotal Cloud Foundry platform with the Pivotal Mobile Services, namely Data Sync, Push Notification
 and Api Gateway to give a mobile user the ability to create bus routes of interest and receive push notifications based on
 predictions.
 
+image:./images/Transit-App-1.png[Transit App Architecture]
+
+
 ==== Components of Transit App: Client and Platform Apps and Microservices
+
+image:./images/Transit App Architecture.png[Transit App Architecture]
+
 
 The transit application consist of the following components:
 
@@ -80,13 +87,9 @@ The transit application consist of the following components:
 The transit mobile application provides a simple way to register for bus routes of interest and receive notifications when
 a route is predicted to route late. The application authenicates users after launch using the data synch authenication service and retrieves existing user-saved bus routes from the data synch mobile service. There is native applicaiton for iOS and Android devices.
 
-image:./images/Transit-1.png[Transit App Home]
-
 ==== Transit Sample API Gateway
 The transit sample API gateway application makes external web service calls to the NextBus web service and performs XML->JSON
 translation. This application is deployed into Pivotal Cloud Foundry into an organization and space is and bound to the API Gateway service. The demo environment already has this application deployed.
-
-image:./image/Transit-2.png[Transit App API Gateway]
 
 ==== Transit Sample Scheduler
 The transit sample scheduler application is a ruby based application that reviews the stop predictions and sends push notifications to mobile users that registered with those bus routes. The demo environment already has this application deployed.
