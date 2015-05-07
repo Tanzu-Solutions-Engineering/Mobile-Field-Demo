@@ -15,26 +15,21 @@ This document outlines the steps required to demo Pivotal Cloud Foundry Mobile S
 
 image:./images/PCF_MobileService.png[Mobile Services on Cloud Foundry]
 
-* Data Sync
+*Data Sync*
 
 Mobile Optimized API's for cloud based data storage service which can sync data across devices and uses federated (Oauth) identity.
 
-* API Gateway
+*API Gateway*
 
 Deliver mobile-optimized, device specific content from backend microservices on a cloud scale and manage the interface lifecycle through versioning.
 
-
-* Push Notification
+*Push Notification*
 
 Push Notification service at cloud scale and across platforms with granular control over the data, tags and devices.
 
-* App Distribution
+*App Distribution*
 
 Enable testers to easily download developer versions of apps over-the-air (OTA) to mobile devices and
-
-{ Question is this just for Testers like Hockey App or a full MDM?}
-
-
 
 For more detailed Technical Deck, refer to the pitch deck from Product Manager: link:https://drive.google.com/open?id=0B0FpBXIzbQ9pemtFQkowUzhmaG8&authuser=0[Mobile Pitch Deck]
 
@@ -46,15 +41,24 @@ Mobile app development brings new requirements and with it new challenges.
 Mobile Apps provide a new engagement model as they have to support new devices, new sensors and new user behaviour. Mobile Apps typically have 10-24 releases per year as new OS's,new devices,new requirements come in. Mobile apps have resulted in exponential and higly dynamic workloads with zero downtime. 
 
 Mobile apps require a modern cloud architecture and platform which is highly scalable and secure with full control of data. 
+Legacy backend systems can provide the enterprise data using Microservices on a enterprise cloud platform to serve the new Mobile first apps, which can  
+- Scale up for dynamic workloads from Mobile Apps
+- Organized around a business functionality, do one thing, well
+- Independently developed, deployed and scaled without interdependency 
+- Designed for failure
 
 Resource : link:https://www.youtube.com/watch?v=xIXIFx22F98#t=328[The Mobile First World Deliver Mobile Apps Faster]
 
 Gartner predicts that Emerging cloud mobile back-end services threaten to replace mobile middleware for
 enterprise mobile app developers. As mBaaS services mature, the entry of general-purpose middleware and PaaS
 vendors into the mobile market will expand the options for mobile development leaders and architects, resulting in best-in-class specialized cloud mobile services as opposed to bundles of services.
+
 image:./images/Gartner.png[Mobile Services on Cloud Foundry]
 
 For more details refer to the Gartner Research note here link:https://sites.google.com/a/pivotal.io/analyst-relations/agile-apps/gartner-thetransformationofmobilemiddleware-internal/The%20Transformation%20of%20Mobile%20Middleware.pdf?attredirects=0[Gartner Note]
+
+
+Pivotal Labs has built 100's of Mobile Apps using these design principles of Microservices and delivered them on Pivotal Cloud Foundry. Dwayne Forde from the Cloud Foundry Mobile Services team at Pivotal discusses in this blog post link:http://blog.pivotal.io/cloud-foundry-pivotal/case-studies-2/how-pivotal-performs-continuous-delivery-of-mobile-services[How Pivotal Performs Continuous Delivery of Mobile Services] and the role of Pivotal Cloud Foundry "Continuous Integration (CI) and Continuous Delivery (CD) play a large role in Pivotal’s agile engineering culture. Integration testing can be simulated in many different ways, but when it comes to Mobile Services, the only viable solution is to use real devices. We have implemented a method that offers an automated 360 view of our product quality throughout the development process, from the installation of a tile in Pivotal Cloud Foundry Ops Manager to delivery of end-user mobile applications that use products such as the Push Notification Service."
 
 
 
@@ -72,35 +76,32 @@ predictions.
 
 The transit application consist of the following components:
 
-
 ==== Transit Application
 The transit mobile application provides a simple way to register for bus routes of interest and receive notifications when
-a route is predicted to route late. The application authenicates users after launch using the data synch authenication service
-and retrieves existing user-saved bus routes from the data synch mobile service. There is native applicaiton for iOS and Android
-devices.
+a route is predicted to route late. The application authenicates users after launch using the data synch authenication service and retrieves existing user-saved bus routes from the data synch mobile service. There is native applicaiton for iOS and Android devices.
+
+image:./images/Transit-1.png[Transit App Home]
 
 ==== Transit Sample API Gateway
 The transit sample API gateway application makes external web service calls to the NextBus web service and performs XML->JSON
-translation. This application is deployed into Pivotal Cloud Foundry into an organization and space is and bound to the API Gateway
-service. The demo environment already has this application deployed.
+translation. This application is deployed into Pivotal Cloud Foundry into an organization and space is and bound to the API Gateway service. The demo environment already has this application deployed.
+
+image:./image/Transit-2.png[Transit App API Gateway]
 
 ==== Transit Sample Scheduler
-The transit sample scheduler application is a ruby based application that reviews the stop predictions and sends push notifications
-to mobile users that registered with those bus routes. The demo environment already has this application deployed.
+The transit sample scheduler application is a ruby based application that reviews the stop predictions and sends push notifications to mobile users that registered with those bus routes. The demo environment already has this application deployed.
 
 ==== NextBus Web Service
-link:http://www.nextbus.com/predictor/stopSelector.jsp?a=ttc[NextBus] is a third party web service which delivers a list of bus
-routes, service alerts and predictions. It is used by the API Gateway to retrieve service information about mobile user routes.
+link:http://www.nextbus.com/predictor/stopSelector.jsp?a=ttc[NextBus] is a third party web service which delivers a list of bus routes, service alerts and predictions. It is used by the API Gateway to retrieve service information about mobile user routes.
 
 
 === Demo
 
 
 ==== Demo Environment
-The demo environment has the following Pivotal products installed and ready for you to demo. This environment is typically the latest
-GA products and is pre-confogured with the external vender services like Apple Push Notification Service (APNS)
+The demo environment has the following Pivotal products installed and ready for you to demo. This environment is typically the latest GA products and is pre-confogured with the external vender services like Apple Push Notification Service (APNS)
 
-* Pivotal Operations Manager
+* link:https://opsmgr.mobile.piv-demo.com[Pivotal Operations Manager]
 * Pivotal Cloud Foundry (Elastic Runtime)
 * Pivotal Data Synch
 * Pivotal API Gateway
