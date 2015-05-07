@@ -119,7 +119,7 @@ User/Password: demo/mobiledemo@123
 ==== Steps:
 
 * Launch the Transit App on the device
-image:.images/Transit-App-2.jpg 
+image:.images/Transit-App-2.jpg[Launch]
 
 Use link:http://www.tekrevue.com/tip/record-iphone-screen-quicktime[QuickTime Movie]  or link:http://www.airsquirrels.com/reflector/[Reflector] to demo the App from your Laptop. 
 
@@ -128,9 +128,8 @@ For Reflector you have to be on the same network and without firewall's blocking
 
 
 * Authentication
-Use Google Authentication to authenticate.
+image:./images/Transit-App-3.jpg[Use Google Authentication to authenticate.]
 
-image:./images/Transit-App-3.jpg
 
 Data sync service uses the Oauth token to create a datastorge on the cloud for the customer.
 
