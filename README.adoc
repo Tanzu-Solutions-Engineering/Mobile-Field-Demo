@@ -145,7 +145,7 @@ Use link:http://www.tekrevue.com/tip/record-iphone-screen-quicktime[QuickTime Mo
 For Reflector you have to be on the same network and without firewall's blocking the reflector airplay ports. Refer to the documentation link:http://help.airsquirrels.com/support/solutions/articles/1000107197-i-can-t-see-the-airplay-icon-on-my-device-[here]
 
 
-==== Launch the App and Authenticate using Google. 
+==== Launch the App and Authenticate using Google OAuth. 
 
 image:./images/Transit-App-2.png[Launch,scaledheight=30%]
 
