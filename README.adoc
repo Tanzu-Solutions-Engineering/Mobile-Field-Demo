@@ -60,10 +60,13 @@ For more details refer to the Gartner Research note here link:https://sites.goog
 
 Pivotal Labs has built 100's of Mobile Apps using these design principles of Microservices and delivered them on Pivotal Cloud Foundry. Dwayne Forde from the Cloud Foundry Mobile Services team at Pivotal discusses in this blog post link:http://blog.pivotal.io/cloud-foundry-pivotal/case-studies-2/how-pivotal-performs-continuous-delivery-of-mobile-services[How Pivotal Performs Continuous Delivery of Mobile Services] on Pivotal Cloud Foundry:
 
-[source,groovy,options="wrap"]
------
-"Continuous Integration (CI) and Continuous Delivery (CD) play a large role in Pivotal’s agile engineering culture. Integration testing can be simulated in many different ways, but when it comes to Mobile Services, the only viable solution is to use real devices. We have implemented a method that offers an automated 360 view of our product quality throughout the development process, from the installation of a tile in Pivotal Cloud Foundry Ops Manager to delivery of end-user mobile applications that use products such as the Push Notification Service."
------
+[quote]
+"Continuous Integration (CI) and Continuous Delivery (CD) play a large role in Pivotal’s agile engineering culture. 
+Integration testing can be simulated in many different ways, but when it comes to Mobile Services, the only viable solution 
+is to use real devices. We have implemented a method that offers an automated 360 view of our product quality throughout the 
+development process, from the installation of a tile in Pivotal Cloud Foundry Ops Manager to delivery of end-user mobile 
+applications that use products such as the Push Notification Service."
+
 
 We are going to see how a sample mobile Transit App uses the Pivotal Cloud Foundry Mobile Services and Microservices based architecture. 
 
