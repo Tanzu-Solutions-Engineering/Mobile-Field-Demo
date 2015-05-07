@@ -124,7 +124,7 @@ Pre-requisite:
 
 Download the App from the XLStudio App Distribution
 
-link:https://xlstudio.com/#/projects/491/build/releases/9903[Transit App for Field Enginner]
+link:https://xlstudio.com/#/projects/491/build/releases/9903[Transit++ App for Field Engineers on iOS]
 
 image:./images/Transit-App-17.png[Launch,scaledheight=30%]
 
