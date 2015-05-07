@@ -188,5 +188,14 @@ image:./images/Transit-App-15.png[Ops Manager,scaledheight=30%]
 
 === What we saw today ...
 ==== Microservices based architecture for Agile Mobile App Delivery using Cloud Foundry
+Mobile apps require a modern cloud architecture and platform to delivery at the agility and scale demanded by the customers. 
+Microservices based architecture are best fit for mobile app delivery, but to build microservices on your own is a huge task. 
+The microservice architecture can introduce operational complexity, careful coordination between the various development teams, 
+Well known sites such as Netflix, eBay, Amazon.com, Groupon, and Gilt have all evolved from a monolithic architecture to a microservice architecture.
+link:http://www.infoq.com/articles/microservices-intro[Introduction to Microservices]
+
+Pivotal Mobile Services on Pivotal Cloud Foundry can significantly accelerate your development and mobile application delivery on a cloud platform. 
+
+
 
 === Q/A
