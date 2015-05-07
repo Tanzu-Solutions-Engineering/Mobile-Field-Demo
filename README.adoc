@@ -174,8 +174,12 @@ image:./images/Transit-App-5.png[Mobile Backend Design,scaledheight=30%]
 ==== Datasync
 The Mobile App uses the Pivotal Data-sync mobile services to save user preferences, routes across devices. 
 
+*Datasync Workflow*
+
 image:./images/Transit-App-6.png[Mobile Data-sync Workflow,scaledheight=30%]
 
+
+Launch the Datasync Service Dashboard from here link:http://datasync-dashboard.mobile.piv-demo.com/metrics[Pivotal Data Synch]
 
 image:./images/Transit-App-10.png[Mobile Data-sync Services on Pivotal Cloud Foundry,scaledheight=30%]
 
@@ -190,7 +194,10 @@ image:./images/Transit-App-8.png[NextBus Transformation,scaledheight=30%]
 ==== Push Notification
 Pivotal Cloud Foundry Push Notification Dashboards and Services
 
+*Push Notification Workflow*
 image:./images/Transit-App-9.png[Push Notification Workflow,scaledheight=30%]
+
+Launch the Push Notification Service Dashboard from here link:http://push-notifications-dashboard.mobile.piv-demo.com[Pivotal Push Notification]
 
 image:./images/Transit-App-11.png[Push Notification Services,scaledheight=30%]
 
@@ -200,6 +207,8 @@ image:./images/Transit-App-16.png[Test Push Message,scaledheight=30%]
 
 ==== Ops Manager
 Pivotal Cloud Foundry Ops Manager Configuration for Mobile Services
+
+Launch the Ops Manager from here link:https://opsmgr.mobile.piv-demo.com[Pivotal Operations Manager]
 
 image:./images/Transit-App-15.png[Ops Manager,scaledheight=30%]
 
