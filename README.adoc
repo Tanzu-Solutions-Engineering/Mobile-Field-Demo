@@ -106,36 +106,55 @@ link:http://www.nextbus.com/predictor/stopSelector.jsp?a=ttc[NextBus] is a third
 
 
 ==== Demo Environment
-The demo environment has the following Pivotal products installed and ready for you to demo. This environment is typically the latest GA products and is pre-confogured with the external vender services like Apple Push Notification Service (APNS)
+The demo environment has the following Pivotal products installed and ready for you to demo. This environment is typically the latest GA products and is pre-confogured with the external vender services like Apple Push Notification Service (APNS) and Google OAuth. 
+
+User/Password: demo/mobiledemo@123
 
 * link:https://opsmgr.mobile.piv-demo.com[Pivotal Operations Manager]
-* Pivotal Cloud Foundry (Elastic Runtime)
-* Pivotal Data Synch
-* Pivotal API Gateway
-* Pivotal Push Notification
+* link:https://console.mobile.piv-demo.com[Pivotal Cloud Foundry (Elastic Runtime)]
+* link:http://datasync-dashboard.mobile.piv-demo.com/metrics[Pivotal Data Synch]
+* link:http://gs-dashboard.mobile.piv-demo.com[Pivotal API Gateway]
+* link:http://push-notifications-dashboard.mobile.piv-demo.com[Pivotal Push Notification]
 
 ==== Steps:
 
 * Launch the Transit App on the device
-{ Device Screen Shot} and use [link:qt.adoc] QuickTime Movie  or [link:reflector.adoc] Reflector
+image:.images/Transit-App-2.jpg 
+
+Use link:http://www.tekrevue.com/tip/record-iphone-screen-quicktime[QuickTime Movie]  or link:http://www.airsquirrels.com/reflector/[Reflector] to demo the App from your Laptop. 
+
+[NOTE]
+For Reflector you have to be on the same network and without firewall's blocking the reflector airplay ports. Refer to the documentation link:http://help.airsquirrels.com/support/solutions/articles/1000107197-i-can-t-see-the-airplay-icon-on-my-device-[here]
+
 
 * Authentication
-{ Screen Shot}
-Use Google Authentication to authenticate
+Use Google Authentication to authenticate.
+
+image:.images/Transit-App-3.jpg
+
 Data sync service uses the Oauth token to create a datastorge on the cloud for the customer.
 
+
 * Fetch Routes
-{ Screen Shot}
-API Gateway converts the Next Web Service XML to mobile optimized device specific Routes information.
+The Application home page shows the list of Routes you are interested in getting notified on. 
+
+image:.images/Transit-App-4.jpg
+
 
 * Add Notification (to and From)
 Register for Push Notification and add a route to be notified. The scheduler app checks the likelihood of a bus arriving at a destination based on the Next Web Service and notifies the devices registered for notification.
 
+image:.images/Transit-App-6.jpg image:.images/Transit-App-7.jpg image:.images/Transit-App-8.jpg
+
+
+* Delete or Unsubscribe Notification 
+To delete a Route, swipe the Route left, and you will see the delete button. To unsubscribe, slide the radio button to off. 
+
+
+
 Google Notification Workflow
-{ Screen Shot}
 
 Apple Push Notification Workflow
-{ Screen Shot}
 
 
 
