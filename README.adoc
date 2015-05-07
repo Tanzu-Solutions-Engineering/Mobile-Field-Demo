@@ -227,7 +227,7 @@ Microservices based architecture are best fit for mobile app delivery, but to bu
 The microservice architecture can introduce operational complexity, asynchronous communication across services is difficult, careful coordination is required between the various development teams and there are testing challenges as the pace of innovation and release cycles is very short. It takes a platform to build enterprise mobile apps.
 
 Well known sites such as Netflix, eBay, Amazon.com, Groupon, and Gilt have all evolved from a monolithic architecture to a microservice architecture.
-link:http://www.infoq.com/articles/microservices-intro[Introduction to Microservices]
+link:http://www.infoq.com/articles/microservices-intro[Ref: Introduction to Microservices]
 
 Pivotal Mobile Services on Pivotal Cloud Foundry can significantly accelerate your development and mobile application delivery on a cloud platform. 
 
