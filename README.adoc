@@ -2,7 +2,7 @@
 
 This document outlines the steps required to demo Pivotal Cloud Foundry Mobile Services using the Transit Application.
 
-=== Agenda
+== Agenda
 * Introduce Mobile Services on Cloud Foundry
 * What we are going to see? Case for Microservices based architecture for Agile Mobile Application Delivery
 * Transit App - Big Picture
@@ -11,7 +11,7 @@ This document outlines the steps required to demo Pivotal Cloud Foundry Mobile S
 * Q/A
 
 
-=== Introduce Mobile Services on Cloud Foundry
+== Introduce Mobile Services on Cloud Foundry
 
 image:./images/PCF_MobileService.png[Mobile Services on Cloud Foundry]
 
@@ -34,11 +34,11 @@ Enable testers to easily download developer versions of apps over-the-air (OTA) 
 For more detailed Technical Deck, refer to the pitch deck from Product Manager: link:https://drive.google.com/open?id=0B0FpBXIzbQ9pemtFQkowUzhmaG8&authuser=0[Mobile Pitch Deck]
 
 
-=== What we are going to see?
-==== Case for Microservices based architecture for Agile Mobile Application Delivery
+== What we are going to see?
+=== Case for Microservices based architecture for Agile Mobile Application Delivery
 
 Mobile app development brings new requirements and with it new challenges. 
-Mobile Apps provide a new engagement model as they have to support new devices, new sensors and new user behaviour. Mobile Apps typically have 10-24 releases per year as new OS's,new devices,new requirements come in. Mobile apps have resulted in exponential and higly dynamic workloads with zero downtime. 
+Mobile Apps provide a new engagement model as they have to support new devices, new sensors and new user behaviour. Mobile Apps typically have 10-24 releases per year as new OS's,new devices,new requirements come in. Mobile apps have resulted in highly exponential and dynamic workloads with zero downtime. 
 
 Mobile apps require a modern cloud architecture and platform which is highly scalable and secure with full control of data. 
 Legacy backend systems can provide the enterprise data using Microservices on a enterprise cloud platform to serve the new Mobile first apps, which can  
@@ -70,8 +70,8 @@ applications that use products such as the Push Notification Service."
 
 We are going to see how a sample mobile Transit App uses the Pivotal Cloud Foundry Mobile Services and Microservices based architecture. 
 
-=== Transit App on Pivotal Cloud Foundry - Big Picture
-==== The Transit Mobile App
+== Transit App on Pivotal Cloud Foundry - Big Picture
+=== The Transit Mobile App
 The Transit App is a sample mobile application which shows the public transportation routes for the city of Toronto.
 This app combines the Pivotal Cloud Foundry platform with the Pivotal Mobile Services, namely Data Sync, Push Notification
 and Api Gateway to give a mobile user the ability to create bus routes of interest and receive push notifications based on
@@ -102,10 +102,10 @@ The transit sample scheduler application is a ruby based application that review
 link:http://www.nextbus.com/predictor/stopSelector.jsp?a=ttc[NextBus] is a third party web service which delivers a list of bus routes, service alerts and predictions. It is used by the API Gateway to retrieve service information about mobile user routes.
 
 
-=== Demo
+== Demo
 
 
-==== Demo Environment
+=== Demo Environment
 The demo environment has the following Pivotal products installed and ready for you to demo. This environment is typically the latest GA products and is pre-confogured with the external vender services like Apple Push Notification Service (APNS) and Google OAuth. 
 
 User/Password: demo/mobiledemo@123
@@ -116,7 +116,7 @@ User/Password: demo/mobiledemo@123
 * link:http://gs-dashboard.mobile.piv-demo.com[Pivotal API Gateway]
 * link:http://push-notifications-dashboard.mobile.piv-demo.com[Pivotal Push Notification]
 
-==== Steps:
+=== Steps:
 
 Pre-requsite: 
 
@@ -143,7 +143,7 @@ Use link:http://www.tekrevue.com/tip/record-iphone-screen-quicktime[QuickTime Mo
 For Reflector you have to be on the same network and without firewall's blocking the reflector airplay ports. Refer to the documentation link:http://help.airsquirrels.com/support/solutions/articles/1000107197-i-can-t-see-the-airplay-icon-on-my-device-[here]
 
 
-===== Launch the App and Authenticate using Google. 
+==== Launch the App and Authenticate using Google. 
 
 image:./images/Transit-App-2.png[Launch,scaledheight=30%]
 
@@ -152,13 +152,13 @@ Data sync service uses the Oauth token to create a datastorge on the cloud for t
 
 
 
-===== Add Notification (to and From)
+==== Add Notification (to and From)
 
 Register for Push Notification and add a route to be notified. The scheduler app checks the likelihood of a bus arriving at a destination based on the Next Web Service and notifies the devices registered for notification.
 
 image:./images/Transit-App-3.png[Add Route,scaledheight=30%]
 
-===== Delete or Unsubscribe Notification and Logout
+==== Delete or Unsubscribe Notification and Logout
 
 To delete a Route, swipe the Route left, and you will see the delete button. To unsubscribe, slide the radio button to off. 
 
@@ -214,8 +214,8 @@ Launch the Ops Manager from here link:https://opsmgr.mobile.piv-demo.com[Pivotal
 image:./images/Transit-App-15.png[Ops Manager,scaledheight=30%]
 
 
-=== What we saw today ...
-==== Microservices based architecture for Agile Mobile App Delivery using Cloud Foundry
+== What we saw today ...
+=== Microservices based architecture for Agile Mobile App Delivery using Cloud Foundry
 Mobile apps require a modern cloud architecture and platform to delivery at the agility and scale demanded by the customers. 
 Microservices based architecture are best fit for mobile app delivery, but to build microservices on your own is a huge task. 
 The microservice architecture can introduce operational complexity, asynchronous communication across services is difficult, careful coordination is required between the various development teams and there are testing challenges as the pace of innovation and release cycles is very short. It takes a platform to build enterprise mobile apps.
@@ -227,4 +227,4 @@ Pivotal Mobile Services on Pivotal Cloud Foundry can significantly accelerate yo
 
 
 
-=== Q/A
+== Q/A
