@@ -150,40 +150,40 @@ image:./images/Transit-App-4.png[Clear Route,scaledheight=30%]
 === Behind the scenes - Microservices on the cloud platform
 The Transit mobile backend uses various Pivotal mobile services on the Pivotal Cloud Foundry Platform. 
 
-image:./images/Transit-App-5.png[Mobile Backend Design]
+image:./images/Transit-App-5.png[Mobile Backend Design,scaledheight=30%]
 
 
 ==== Datasync
 The Mobile App uses the Pivotal Data-sync mobile services to save user preferences, routes across devices. 
 
-image:./images/Transit-App-6.png[Mobile Data-sync Workflow]
+image:./images/Transit-App-6.png[Mobile Data-sync Workflow,scaledheight=30%]
 
 
-image:./images/Transit-App-10.png[Mobile Data-sync Services on Pivotal Cloud Foundry]
+image:./images/Transit-App-10.png[Mobile Data-sync Services on Pivotal Cloud Foundry,scaledheight=30%]
 
 
 ==== API Gateway
 
-image:./images/Transit-App-7.png[API Gateway Workflow]
+image:./images/Transit-App-7.png[API Gateway Workflow,scaledheight=30%]
 
-image:./images/Transit-App-8.png[NextBus Transformation]
+image:./images/Transit-App-8.png[NextBus Transformation,scaledheight=30%]
 
 
 ==== Push Notification
 Pivotal Cloud Foundry Push Notification Dashboards and Services
 
-image:./images/Transit-App-9.png[Push Notification Workflow]
+image:./images/Transit-App-9.png[Push Notification Workflow,scaledheight=30%]
 
-image:./images/Transit-App-11.png[Push Notification Services]
+image:./images/Transit-App-11.png[Push Notification Services,scaledheight=30%]
 
 
-image:./images/Transit-App-16.png[Test Push Message]
+image:./images/Transit-App-16.png[Test Push Message,scaledheight=30%]
 
 
 ==== Ops Manager
 Pivotal Cloud Foundry Ops Manager Configuration for Mobile Services
 
-image:./images/Transit-App-15.png[Ops Manager]
+image:./images/Transit-App-15.png[Ops Manager,scaledheight=30%]
 
 
 === What we saw today ...
