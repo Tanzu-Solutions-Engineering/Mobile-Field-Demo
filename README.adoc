@@ -42,11 +42,12 @@ Mobile app development brings new requirements and with it new challenges.
 Mobile Apps provide a new engagement model as they have to support new devices, new sensors and new user behaviour. Mobile Apps typically have 10-24 releases per year. Mobile apps have resulted in highly exponential and dynamic workloads with zero downtime. 
 
 Mobile apps require a modern cloud platform which is highly scalable and secure with full control of data. 
-Legacy backend systems can provide the enterprise data using Microservices on a enterprise cloud platform to serve the new Mobile first apps, which can  
-- Scale up for dynamic workloads from Mobile Apps
-- Organized around a business functionality, do one thing, well
-- Independently developed, deployed and scaled without interdependency 
-- Designed for failure
+Legacy backend systems can provide the enterprise data using Microservices on a enterprise cloud platform to serve the new Mobile first apps, which can 
+
+* Scale up for dynamic workloads from Mobile Apps
+* Organized around a business functionality, do one thing, well
+* Independently developed, deployed and scaled without interdependency 
+* Designed for failure
 
 For more info on how to delivery mobile apps faster using microservices watch the video at: link:https://www.youtube.com/watch?v=xIXIFx22F98#t=328[The Mobile First World Deliver Mobile Apps Faster]
 
