@@ -118,8 +118,9 @@ User/Password: demo/mobiledemo@123
 
 ==== Steps:
 
-* Launch the Transit App on the device
-image:./images/Transit-App-2.jpg[Launch,height=30]
+.Launch the Transit App on the device
+
+image:./images/Transit-App-2.jpg[Launch,scaledheight=30%]
 
 Use link:http://www.tekrevue.com/tip/record-iphone-screen-quicktime[QuickTime Movie]  or link:http://www.airsquirrels.com/reflector/[Reflector] to demo the App from your Laptop. 
 
@@ -127,31 +128,35 @@ Use link:http://www.tekrevue.com/tip/record-iphone-screen-quicktime[QuickTime Mo
 For Reflector you have to be on the same network and without firewall's blocking the reflector airplay ports. Refer to the documentation link:http://help.airsquirrels.com/support/solutions/articles/1000107197-i-can-t-see-the-airplay-icon-on-my-device-[here]
 
 
-* Authentication
-image:./images/Transit-App-3.jpg[Use Google Authentication to authenticate,scaledwidth=50%]
+.Authentication
+
+image:./images/Transit-App-3.jpg[Use Google Authentication to authenticate,scaledheight=20%]
 
 
 Data sync service uses the Oauth token to create a datastorge on the cloud for the customer.
 
 
-* Fetch Routes
+.Fetch Routes
+
 The Application home page shows the list of Routes you are interested in getting notified on. 
 
-image:./images/Transit-App-4.jpg
+image:./images/Transit-App-4.jpg[Fetch Routes,scaledheight=20%]
 
 
-* Add Notification (to and From)
+.Add Notification (to and From)
+
 Register for Push Notification and add a route to be notified. The scheduler app checks the likelihood of a bus arriving at a destination based on the Next Web Service and notifies the devices registered for notification.
 
-image:./images/Transit-App-6.jpg image:./images/Transit-App-7.jpg image:./images/Transit-App-8.jpg
+image:./images/Transit-App-6.jpg[Notify,scaledheight=20%] image:./images/Transit-App-7.jpg[Notify,scaledheight=20%] image:./images/Transit-App-8.jpg[Notify,scaledheight=20%]
 
 
-* Delete or Unsubscribe Notification 
+.Delete or Unsubscribe Notification 
+
 To delete a Route, swipe the Route left, and you will see the delete button. To unsubscribe, slide the radio button to off. 
 
 
 
-Google Notification Workflow
+.Google Notification Workflow
 
 Apple Push Notification Workflow
 
