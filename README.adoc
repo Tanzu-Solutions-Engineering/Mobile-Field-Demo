@@ -1,8 +1,8 @@
 = Pivotal CF Mobile Services Field Demo
 
-This document outlines the steps required to demo Pivotal Cloud Foundry Mobile Services using the Transit Application.
+This document provides a brief description of the Pivotal Mobile Services for Cloud Foundry and outlines the steps required to demonstrate the Transit++ mobile application using Pivotal Cloud Foundry Mobile Services.
 
-== Introduce Mobile Services on Cloud Foundry
+== Description of the Mobile Services on Cloud Foundry
 
 image:./images/PCF_MobileService.png[Mobile Services on Cloud Foundry]
 
@@ -25,9 +25,8 @@ Enable testers to easily download developer versions of apps over-the-air (OTA) 
 
 For more detailed Technical Deck, refer to the pitch deck from Product Manager: link:https://drive.google.com/open?id=0B0FpBXIzbQ9pemtFQkowUzhmaG8&authuser=0[Mobile Pitch Deck]
 
-== Transit App on Pivotal Cloud Foundry
-=== The Transit Mobile App
-The Transit App is a sample mobile application which shows the public transportation routes for the city of Toronto.
+== Transit++ mobile application on Pivotal Cloud Foundry
+The Transit++ App is a sample mobile application which shows the public transportation routes for the city of Toronto.
 This app combines the Pivotal Cloud Foundry platform with the Pivotal Mobile Services, namely Data Sync, Push Notification
 and Api Gateway to give a mobile user the ability to create bus routes of interest and receive push notifications based on
 predictions.
@@ -35,23 +34,23 @@ predictions.
 image:./images/Transit-App-1.png[Transit App Architecture]
 
 
-==== Components of Transit App: Client and Platform Apps and Microservices
+==== Components of Transit++ App: Client and Platform Apps and Microservices
 
 image:./images/Transit App Architecture.png[Transit App Architecture]
 
 
-The transit application consist of the following components:
+The transit++ application consist of the following components:
 
-==== Transit Application
-The transit mobile application provides a simple way to register for bus routes of interest and receive notifications when
+==== Transit++ Application
+The transit++ mobile application provides a simple way to register for bus routes of interest and receive notifications when
 a route is predicted to route late. The application authenicates users after launch using the data synch authenication service and retrieves existing user-saved bus routes from the data synch mobile service. There is native applicaiton for iOS and Android devices.
 
-==== Transit Sample API Gateway
-The transit sample API gateway application makes external web service calls to the NextBus web service and performs XML->JSON
+==== Transit++ Sample API Gateway
+The transit++ sample API gateway application makes external web service calls to the NextBus web service and performs XML->JSON
 translation. This application is deployed into Pivotal Cloud Foundry into an organization and space is and bound to the API Gateway service. The demo environment already has this application deployed.
 
-==== Transit Sample Scheduler
-The transit sample scheduler application is a ruby based application that reviews the stop predictions and sends push notifications to mobile users that registered with those bus routes. The demo environment already has this application deployed.
+==== Transit++ Sample Scheduler
+The transit++ sample scheduler application is a ruby based application that reviews the stop predictions and sends push notifications to mobile users that registered with those bus routes. The demo environment already has this application deployed.
 
 ==== NextBus Web Service
 link:http://www.nextbus.com/predictor/stopSelector.jsp?a=ttc[NextBus] is a third party web service which delivers a list of bus routes, service alerts and predictions. It is used by the API Gateway to retrieve service information about mobile user routes.
@@ -63,7 +62,7 @@ link:http://www.nextbus.com/predictor/stopSelector.jsp?a=ttc[NextBus] is a third
 === Demo Environment
 The demo environment has the following Pivotal products installed and ready for you to demo. This environment is typically the latest GA products and is pre-confogured with the external vender services like Apple Push Notification Service (APNS) and Google OAuth. 
 
-User/Password: pdemo/mobiledemo@123
+User/Password: pdemo/mobiledemo@123 +
 Org/Space: mobile/development
 
 * link:https://opsmgr.mobile.piv-demo.com[Pivotal Operations Manager]
@@ -73,7 +72,7 @@ Org/Space: mobile/development
 * link:http://push-notifications-dashboard.mobile.piv-demo.com[Pivotal Push Notification]
 
 === Steps:
-. Download the Tranist++ Application from XLStudio
+. Download the Tranist++ application from XLStudio
 . Authenitcate using Google OAuth
 . Register for push notifications
 . Receive push notification.
@@ -88,7 +87,7 @@ image:./images/Transit-App-17.png[Launch,scaledheight=30%]
 You will need an account to download the app from XLStudio. Ask your FE manager for access to XLStudio. 
 
 [WARNING]
-The Transit iOS App is signed using Pivotal's Apple Enterprise Profile certificates; so it can be distributed to all Pivotal employees. 
+The Transit++ iOS App is signed using Pivotal's Apple Enterprise Profile certificates; so it can be distributed to all Pivotal employees. 
 We MUST not allow the binary to be installed on any device that does not belong to a Pivotal Employee. Failing to do so may prompt Apple to revoke our certificates which has a drastic impact on every internally built iOS application today.
 
 ==== Step 2 Launch the App and Authenticate using Google OAuth. 
@@ -105,7 +104,7 @@ Data sync service uses the Oauth token to create a datastorage on the cloud for 
 Register for Push Notification and add a route to be notified. The scheduler app checks the likelihood of a bus arriving at a destination based on the Next Web Service and notifies the devices registered for notification.
 
 [Note]
-501 and 502 have frequent stops which can be used for notifications. 
+501 Younge and Bay Street have frequent stops which can be used for notifications. 
 
 image:./images/Transit-App-3.png[Add Route,scaledheight=30%]
 
