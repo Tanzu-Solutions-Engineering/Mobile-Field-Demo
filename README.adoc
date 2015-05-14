@@ -62,7 +62,7 @@ link:http://www.nextbus.com/predictor/stopSelector.jsp?a=ttc[NextBus] is a third
 === Demo Environment
 The demo environment has the following Pivotal products installed and ready for you to demo. This environment is typically the latest GA products and is pre-confogured with the external vender services like Apple Push Notification Service (APNS) and Google OAuth. 
 
-User/Password: pdemo/mobiledemo@123 +
+User/Password: pdemo/mobile@123 +
 Org/Space: mobile/development
 
 * link:https://opsmgr.mobile.piv-demo.com[Pivotal Operations Manager]
@@ -78,7 +78,7 @@ Org/Space: mobile/development
 . Receive push notification.
 . Remove push notifications or delete routes (optional).
 
-==== Step 1 Donload the Tranist++ Application form XLStudio 
+==== Step 1 Download the Tranist++ Application form XLStudio 
 Download the link:https://xlstudio.com/#/projects/491/build/releases/9903[Transit++ App for Field Engineers on iOS] from the XLStudio App Distribution. Use link:http://www.tekrevue.com/tip/record-iphone-screen-quicktime[QuickTime Movie] to demo the App from your Laptop for remote sessions or presentations. 
 
 image:./images/Transit-App-17.png[Launch,scaledheight=30%]
