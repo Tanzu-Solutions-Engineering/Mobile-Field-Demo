@@ -121,9 +121,10 @@ To delete a Route, swipe the Route left, and you will see the delete button. To 
 
 image:./images/Transit-App-4.png[Clear Route,scaledheight=30%]
 
-link:content[How Does it Work]
+=== Additional Details
+link:content.adoc[How Does it Work] +
+
 == Q/A
 [qanda]
-Question 1::
-    Answer 1
+How does this work?:: Sample Answer
 Question 2:: Answer 2
