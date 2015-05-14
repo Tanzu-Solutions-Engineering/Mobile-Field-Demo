@@ -98,7 +98,7 @@ image:./images/Transit-App-2.png[Launch,scaledheight=30%]
 Data sync service uses the Oauth token to create a datastorage on the cloud for the customer.The Application home page shows the list of Routes you are interested in getting notified on. 
 
 [NOTE] 
-You can use Google account to authenticate including your Pivotl Account. 
+You can use Google account to authenticate including your Pivotal Account. 
 
 
 ==== Step 3 Register for Push Notifications (to and From)
