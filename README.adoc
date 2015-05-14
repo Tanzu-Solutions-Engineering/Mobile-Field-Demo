@@ -73,12 +73,14 @@ Org/Space: mobile/development
 * link:http://push-notifications-dashboard.mobile.piv-demo.com[Pivotal Push Notification]
 
 === Steps:
-. Download the Tranist Applciation
+. Download the Tranist++ Application from XLStudio
 . Authenitcate using Google OAuth
 . Register for push notifications
 . Receive push notification.
+. Remove push notifications or delete routes (optional).
 
-==== Step 1 Download the link:https://xlstudio.com/#/projects/491/build/releases/9903[Transit++ App for Field Engineers on iOS] from the XLStudio App Distribution. Use link:http://www.tekrevue.com/tip/record-iphone-screen-quicktime[QuickTime Movie] to demo the App from your Laptop for remote sessions or presentations. 
+==== Step 1 Donload the Tranist++ Application form XLStudio 
+Download the link:https://xlstudio.com/#/projects/491/build/releases/9903[Transit++ App for Field Engineers on iOS] from the XLStudio App Distribution. Use link:http://www.tekrevue.com/tip/record-iphone-screen-quicktime[QuickTime Movie] to demo the App from your Laptop for remote sessions or presentations. 
 
 image:./images/Transit-App-17.png[Launch,scaledheight=30%]
 
@@ -98,7 +100,7 @@ Data sync service uses the Oauth token to create a datastorage on the cloud for 
 
 
 
-==== Add Notification (to and From)
+==== Step 3 Register for Push Notifications (to and From)
 
 Register for Push Notification and add a route to be notified. The scheduler app checks the likelihood of a bus arriving at a destination based on the Next Web Service and notifies the devices registered for notification.
 
@@ -111,7 +113,7 @@ image:./images/Transit-App-3.png[Add Route,scaledheight=30%]
 Push messages are only available to be sent to actual devices and not Simulators.
 
 
-==== Delete or Unsubscribe Notification and Logout
+==== Step 4 Delete or Unsubscribe Notification and Logout
 
 To delete a Route, swipe the Route left, and you will see the delete button. To unsubscribe, slide the radio button to off. 
 
@@ -165,19 +167,6 @@ Pivotal Cloud Foundry Ops Manager Configuration for Mobile Services
 Launch the Ops Manager from here link:https://opsmgr.mobile.piv-demo.com[Pivotal Operations Manager]
 
 image:./images/Transit-App-15.png[Ops Manager,scaledheight=30%]
-
-
-== What we saw today ...
-=== Microservices based architecture for Agile Mobile App Delivery using Cloud Foundry
-Mobile apps require a modern cloud architecture and platform to delivery at the agility and scale demanded by the customers. 
-Microservices based architecture are best fit for mobile app delivery, but to build microservices on your own is a huge task. 
-The microservice architecture can introduce operational complexity, asynchronous communication across services is difficult, careful coordination is required between the various development teams and there are testing challenges as the pace of innovation and release cycles is very short. It takes a platform to build enterprise mobile apps.
-
-Well known sites such as Netflix, eBay, Amazon.com, Groupon, and Gilt have all evolved from a monolithic architecture to a microservice architecture.
-link:http://www.infoq.com/articles/microservices-intro[Ref: Introduction to Microservices]
-
-Pivotal Mobile Services on Pivotal Cloud Foundry can significantly accelerate your development and mobile application delivery on a cloud platform. 
-
 
 
 == Q/A
