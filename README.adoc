@@ -121,7 +121,7 @@ To delete a Route, swipe the Route left, and you will see the delete button. To 
 
 image:./images/Transit-App-4.png[Clear Route,scaledheight=30%]
 
-=== Additional Details
+=== Additional Details Every FE Should Know
 link:content.adoc[How Does it Work] +
 
 == Q/A
