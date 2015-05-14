@@ -1,0 +1,107 @@
+== Agenda
+* Introduce Mobile Services on Cloud Foundry
+* What we are going to see? Case for Microservices based architecture for Agile Mobile Application Delivery
+* Transit App - Big Picture
+* Demo
+* What we saw ? Microservices based architecture for Agile Mobile App Delivery using Cloud Foundry
+* Q/A
+
+== What we are going to see?
+=== Case for Microservices based architecture for Agile Mobile Application Delivery
+
+Mobile app development brings new requirements and with it new challenges. 
+Mobile Apps provide a new engagement model as they have to support new devices, new sensors and new user behaviour. Mobile Apps typically have 10-24 releases per year. Mobile apps have resulted in highly exponential and dynamic workloads with zero downtime. 
+
+Mobile apps require a modern cloud platform which is highly scalable and secure with full control of data. 
+Legacy backend systems can provide the enterprise data using Microservices on a enterprise cloud platform to serve the new Mobile first apps, which can 
+
+* Scale up for dynamic workloads from Mobile Apps
+* Organized around a business functionality, do one thing, well
+* Independently developed, deployed and scaled without interdependency 
+* Designed for failure
+
+For more info on how to delivery mobile apps faster using microservices watch the video at: link:https://www.youtube.com/watch?v=xIXIFx22F98#t=328[The Mobile First World Deliver Mobile Apps Faster]
+
+Gartner predicts that Emerging cloud mobile back-end services threaten to replace mobile middleware for
+enterprise mobile app developers. As mBaaS services mature, the entry of general-purpose middleware and PaaS
+vendors into the mobile market will expand the options for mobile development leaders and architects, resulting in best-in-class specialized cloud mobile services as opposed to bundles of services.
+
+image:./images/Gartner.png[Mobile Services on Cloud Foundry]
+
+For more details refer to the Gartner Research note here link:https://sites.google.com/a/pivotal.io/analyst-relations/agile-apps/gartner-thetransformationofmobilemiddleware-internal/The%20Transformation%20of%20Mobile%20Middleware.pdf?attredirects=0[Gartner Note]
+
+
+Pivotal Labs has built 100's of Mobile Apps using these design principles of Microservices and delivered them on Pivotal Cloud Foundry. Dwayne Forde from the Cloud Foundry Mobile Services team at Pivotal discusses in this blog post link:http://blog.pivotal.io/cloud-foundry-pivotal/case-studies-2/how-pivotal-performs-continuous-delivery-of-mobile-services[How Pivotal Performs Continuous Delivery of Mobile Services] on Pivotal Cloud Foundry:
+
+[quote]
+"Continuous Integration (CI) and Continuous Delivery (CD) play a large role in Pivotal’s agile engineering culture. 
+Integration testing can be simulated in many different ways, but when it comes to Mobile Services, the only viable solution 
+is to use real devices. We have implemented a method that offers an automated 360 view of our product quality throughout the 
+development process, from the installation of a tile in Pivotal Cloud Foundry Ops Manager to delivery of end-user mobile 
+applications that use products such as the Push Notification Service."
+
+
+We are going to see how a sample mobile Transit App uses the Pivotal Cloud Foundry Mobile Services and Microservices based architecture.
+
+Use link:http://www.tekrevue.com/tip/record-iphone-screen-quicktime[QuickTime Movie]  or link:http://www.airsquirrels.com/reflector/[Reflector] to demo the App from your Laptop. 
+[NOTE]
+For Reflector you have to be on the same network and without firewall's blocking the reflector airplay ports. Refer to the documentation link:http://help.airsquirrels.com/support/solutions/articles/1000107197-i-can-t-see-the-airplay-icon-on-my-device-[here] 
+
+== What we saw today ...
+=== Microservices based architecture for Agile Mobile App Delivery using Cloud Foundry
+Mobile apps require a modern cloud architecture and platform to delivery at the agility and scale demanded by the customers. 
+Microservices based architecture are best fit for mobile app delivery, but to build microservices on your own is a huge task. 
+The microservice architecture can introduce operational complexity, asynchronous communication across services is difficult, careful coordination is required between the various development teams and there are testing challenges as the pace of innovation and release cycles is very short. It takes a platform to build enterprise mobile apps.
+
+Well known sites such as Netflix, eBay, Amazon.com, Groupon, and Gilt have all evolved from a monolithic architecture to a microservice architecture.
+link:http://www.infoq.com/articles/microservices-intro[Ref: Introduction to Microservices]
+
+Pivotal Mobile Services on Pivotal Cloud Foundry can significantly accelerate your development and mobile application delivery on a cloud platform. 
+
+=== Behind the scenes - Microservices on the cloud platform
+The Transit mobile backend uses various Pivotal mobile services on the Pivotal Cloud Foundry Platform. 
+
+image:./images/Transit-App-5.png[Mobile Backend Design,scaledheight=30%]
+
+
+==== Datasync
+The Mobile App uses the Pivotal Data-sync mobile services to save user preferences, routes across devices. 
+
+*Datasync Workflow*
+
+image:./images/Transit-App-6.png[Mobile Data-sync Workflow,scaledheight=30%]
+
+
+Launch the Datasync Service Dashboard from here link:http://datasync-dashboard.mobile.piv-demo.com/metrics[Pivotal Data Synch]
+
+image:./images/Transit-App-10.png[Mobile Data-sync Services on Pivotal Cloud Foundry,scaledheight=30%]
+
+
+==== API Gateway
+
+image:./images/Transit-App-7.png[API Gateway Workflow,scaledheight=30%]
+
+image:./images/Transit-App-8.png[NextBus Transformation,scaledheight=30%]
+
+
+==== Push Notification
+Pivotal Cloud Foundry Push Notification Dashboards and Services
+
+*Push Notification Workflow*
+image:./images/Transit-App-9.png[Push Notification Workflow,scaledheight=30%]
+
+Launch the Push Notification Service Dashboard from here link:http://push-notifications-dashboard.mobile.piv-demo.com[Pivotal Push Notification]
+
+image:./images/Transit-App-11.png[Push Notification Services,scaledheight=30%]
+
+
+Create a Test Push Message to immediately deliver the message on your phone. 
+image:./images/Transit-App-16.png[Test Push Message,scaledheight=30%]
+
+
+==== Ops Manager
+Pivotal Cloud Foundry Ops Manager Configuration for Mobile Services
+
+Launch the Ops Manager from here link:https://opsmgr.mobile.piv-demo.com[Pivotal Operations Manager]
+
+image:./images/Transit-App-15.png[Ops Manager,scaledheight=30%]
