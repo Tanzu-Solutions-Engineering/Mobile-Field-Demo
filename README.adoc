@@ -74,14 +74,10 @@ Org/Space: mobile/development
 
 === Steps:
 
-Pre-requisite: 
-
-. Download the App from the XLStudio App Distribution
-
-link:https://xlstudio.com/#/projects/491/build/releases/9903[Transit++ App for Field Engineers on iOS]
+. Download the App from the XLStudio App Distribution link:https://xlstudio.com/#/projects/491/build/releases/9903[Transit++ App for Field Engineers on iOS]
+Use link:http://www.tekrevue.com/tip/record-iphone-screen-quicktime[QuickTime Movie] to demo the App from your Laptop for remote sessions or presentations. 
 
 image:./images/Transit-App-17.png[Launch,scaledheight=30%]
-
 
 [NOTE]
 You will need an account to download the app from XLStudio. Ask your FE manager for access to XLStudio. 
