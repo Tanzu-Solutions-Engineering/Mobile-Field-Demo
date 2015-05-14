@@ -74,8 +74,7 @@ Org/Space: mobile/development
 
 === Steps:
 
-. Download the App from the XLStudio App Distribution link:https://xlstudio.com/#/projects/491/build/releases/9903[Transit++ App for Field Engineers on iOS]
-Use link:http://www.tekrevue.com/tip/record-iphone-screen-quicktime[QuickTime Movie] to demo the App from your Laptop for remote sessions or presentations. 
+. Download the link:https://xlstudio.com/#/projects/491/build/releases/9903[Transit++ App for Field Engineers on iOS] from the XLStudio App Distribution. Use link:http://www.tekrevue.com/tip/record-iphone-screen-quicktime[QuickTime Movie] to demo the App from your Laptop for remote sessions or presentations. 
 
 image:./images/Transit-App-17.png[Launch,scaledheight=30%]
 
@@ -86,12 +85,7 @@ You will need an account to download the app from XLStudio. Ask your FE manager 
 The Transit iOS App is signed using Pivotal's Apple Enterprise Profile certificates; so it can be distributed to all Pivotal employees. 
 We MUST not allow the binary to be installed on any device that does not belong to a Pivotal Employee. Failing to do so may prompt Apple to revoke our certificates which has a drastic impact on every internally built iOS application today.
 
-
-
-
-Use link:http://www.tekrevue.com/tip/record-iphone-screen-quicktime[QuickTime Movie] to demo the App from your Laptop. 
-
-. Launch the App and Authenticate using Google OAuth. 
+.. Launch the App and Authenticate using Google OAuth. 
 
 image:./images/Transit-App-2.png[Launch,scaledheight=30%]
 
