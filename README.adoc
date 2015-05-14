@@ -95,7 +95,7 @@ We MUST not allow the binary to be installed on any device that does not belong 
 
 Use link:http://www.tekrevue.com/tip/record-iphone-screen-quicktime[QuickTime Movie] to demo the App from your Laptop. 
 
-.. Launch the App and Authenticate using Google OAuth. 
+. Launch the App and Authenticate using Google OAuth. 
 
 image:./images/Transit-App-2.png[Launch,scaledheight=30%]
 
