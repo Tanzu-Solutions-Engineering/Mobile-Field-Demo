@@ -2,15 +2,6 @@
 
 This document outlines the steps required to demo Pivotal Cloud Foundry Mobile Services using the Transit Application.
 
-== Agenda
-* Introduce Mobile Services on Cloud Foundry
-* What we are going to see? Case for Microservices based architecture for Agile Mobile Application Delivery
-* Transit App - Big Picture
-* Demo
-* What we saw ? Microservices based architecture for Agile Mobile App Delivery using Cloud Foundry
-* Q/A
-
-
 == Introduce Mobile Services on Cloud Foundry
 
 image:./images/PCF_MobileService.png[Mobile Services on Cloud Foundry]
@@ -34,45 +25,7 @@ Enable testers to easily download developer versions of apps over-the-air (OTA) 
 
 For more detailed Technical Deck, refer to the pitch deck from Product Manager: link:https://drive.google.com/open?id=0B0FpBXIzbQ9pemtFQkowUzhmaG8&authuser=0[Mobile Pitch Deck]
 
-
-== What we are going to see?
-=== Case for Microservices based architecture for Agile Mobile Application Delivery
-
-Mobile app development brings new requirements and with it new challenges. 
-Mobile Apps provide a new engagement model as they have to support new devices, new sensors and new user behaviour. Mobile Apps typically have 10-24 releases per year. Mobile apps have resulted in highly exponential and dynamic workloads with zero downtime. 
-
-Mobile apps require a modern cloud platform which is highly scalable and secure with full control of data. 
-Legacy backend systems can provide the enterprise data using Microservices on a enterprise cloud platform to serve the new Mobile first apps, which can 
-
-* Scale up for dynamic workloads from Mobile Apps
-* Organized around a business functionality, do one thing, well
-* Independently developed, deployed and scaled without interdependency 
-* Designed for failure
-
-For more info on how to delivery mobile apps faster using microservices watch the video at: link:https://www.youtube.com/watch?v=xIXIFx22F98#t=328[The Mobile First World Deliver Mobile Apps Faster]
-
-Gartner predicts that Emerging cloud mobile back-end services threaten to replace mobile middleware for
-enterprise mobile app developers. As mBaaS services mature, the entry of general-purpose middleware and PaaS
-vendors into the mobile market will expand the options for mobile development leaders and architects, resulting in best-in-class specialized cloud mobile services as opposed to bundles of services.
-
-image:./images/Gartner.png[Mobile Services on Cloud Foundry]
-
-For more details refer to the Gartner Research note here link:https://sites.google.com/a/pivotal.io/analyst-relations/agile-apps/gartner-thetransformationofmobilemiddleware-internal/The%20Transformation%20of%20Mobile%20Middleware.pdf?attredirects=0[Gartner Note]
-
-
-Pivotal Labs has built 100's of Mobile Apps using these design principles of Microservices and delivered them on Pivotal Cloud Foundry. Dwayne Forde from the Cloud Foundry Mobile Services team at Pivotal discusses in this blog post link:http://blog.pivotal.io/cloud-foundry-pivotal/case-studies-2/how-pivotal-performs-continuous-delivery-of-mobile-services[How Pivotal Performs Continuous Delivery of Mobile Services] on Pivotal Cloud Foundry:
-
-[quote]
-"Continuous Integration (CI) and Continuous Delivery (CD) play a large role in Pivotal’s agile engineering culture. 
-Integration testing can be simulated in many different ways, but when it comes to Mobile Services, the only viable solution 
-is to use real devices. We have implemented a method that offers an automated 360 view of our product quality throughout the 
-development process, from the installation of a tile in Pivotal Cloud Foundry Ops Manager to delivery of end-user mobile 
-applications that use products such as the Push Notification Service."
-
-
-We are going to see how a sample mobile Transit App uses the Pivotal Cloud Foundry Mobile Services and Microservices based architecture. 
-
-== Transit App on Pivotal Cloud Foundry - Big Picture
+== Transit App on Pivotal Cloud Foundry
 === The Transit Mobile App
 The Transit App is a sample mobile application which shows the public transportation routes for the city of Toronto.
 This app combines the Pivotal Cloud Foundry platform with the Pivotal Mobile Services, namely Data Sync, Push Notification
@@ -122,7 +75,7 @@ User/Password: demo/mobiledemo@123
 
 Pre-requisite: 
 
-Download the App from the XLStudio App Distribution
+.Download the App from the XLStudio App Distribution
 
 link:https://xlstudio.com/#/projects/491/build/releases/9903[Transit++ App for Field Engineers on iOS]
 
@@ -130,7 +83,7 @@ image:./images/Transit-App-17.png[Launch,scaledheight=30%]
 
 
 [NOTE]
-You will need an account to download the app from XLStudio. Please reach out to Rajesh/Jamie or your FE manager to get access. 
+You will need an account to download the app from XLStudio. Ask your FE manager for access to XLStudio. 
 
 [WARNING]
 The Transit iOS App is signed using Pivotal's Apple Enterprise Profile certificates; so it can be distributed to all Pivotal employees. 
