@@ -25,6 +25,10 @@ Enable testers to easily download developer versions of apps over-the-air (OTA) 
 
 For more detailed Technical Deck, refer to the pitch deck from Product Manager: link:https://drive.google.com/open?id=0B0FpBXIzbQ9pemtFQkowUzhmaG8&authuser=0[Mobile Pitch Deck]
 
+== Pivotal Cloud Foundry is "The Platform for Mobility."
+
+Many customers already have a mBaaS solution, and how does PCF fit into the picture. Refer to this document [link:content.adoc[Platform for Mobility] +
+
 == Transit++ mobile application on Pivotal Cloud Foundry
 The Transit++ App is a sample mobile application which shows the public transportation routes for the city of Toronto.
 This app combines the Pivotal Cloud Foundry platform with the Pivotal Mobile Services, namely Data Sync, Push Notification
@@ -120,7 +124,8 @@ To delete a Route, swipe the Route left, and you will see the delete button. To 
 image:./images/Transit-App-4.png[Clear Route,scaledheight=30%]
 
 === Additional Details Every FE Should Know
-link:content.adoc[How Does it Work] +
+
+For behind the scenes configuration refer to the link:transit-pcf.adoc[How Does it Work] +
 
 == Q/A
 [qanda]
