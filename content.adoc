@@ -2,7 +2,7 @@
 
 === 1. Microservices based architecture 
 
-Mobile apps have resulted in highly exponential and dynamic workloads with zero downtime. They require a modern cloud platform which is highly scalable and highly secure and enterprises have full control of data. Legacy backend systems can provide the enterprise data using Microservices on a enterprise cloud platform to serve the new Mobile first apps.
+Mobile apps have resulted in highly exponential and dynamic workloads with zero downtime. They require a modern cloud platform which is highly scalable,highly secure and enterprises have full control of data. Legacy backend systems can provide the enterprise data using Microservices on a enterprise cloud platform to serve the new Mobile first apps.
 
 These apps developed on the "Platform for Mobility"
 
