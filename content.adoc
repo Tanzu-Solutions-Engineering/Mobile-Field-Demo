@@ -1,12 +1,4 @@
-== Agenda
-* Introduce Mobile Services on Cloud Foundry
-* What we are going to see? Case for Microservices based architecture for Agile Mobile Application Delivery
-* Transit App - Big Picture
-* Demo
-* What we saw ? Microservices based architecture for Agile Mobile App Delivery using Cloud Foundry
-* Q/A
-
-== What we are going to see? Three reasons why Pivotal Cloud Foundry is the Platform for Mobility:
+== Three reasons why Pivotal Cloud Foundry is the Platform for Mobility:
 
 === 1. Microservices based architecture 
 
