@@ -8,7 +8,7 @@
 
 == What we are going to see? Three reasons why Pivotal Cloud Foundry is the Platform for Mobility:
 
-=== 1. Agile Mobile Application Delivery requires Microservices based architecture on a Platform
+=== 1. Microservices based architecture 
 Mobile app development brings new requirements and with it new challenges. 
 Mobile Apps provide a new engagement model as they have to support new devices, new sensors and new user behaviour. Mobile Apps typically have 10-24 releases per year. Mobile apps have resulted in highly exponential and dynamic workloads with zero downtime. 
 
@@ -22,7 +22,7 @@ Legacy backend systems can provide the enterprise data using Microservices on a 
 
 For more info on how to delivery mobile apps faster using microservices watch the video at: link:https://www.youtube.com/watch?v=xIXIFx22F98#t=328[The Mobile First World Deliver Mobile Apps Faster]
 
-=== 2. Trend from existing mBaas Solutions to a Enterprise PAAS Platform for Mobility
+=== 2. Current mBaas Solutions to a Enterprise PAAS 
 
 Gartner predicts that Emerging cloud mobile back-end services threaten to replace mobile middleware for
 enterprise mobile app developers. As mBaaS services mature, the entry of general-purpose middleware and PaaS
@@ -32,7 +32,7 @@ image:./images/Gartner.png[Mobile Services on Cloud Foundry]
 
 For more details refer to the Gartner Research note here link:https://sites.google.com/a/pivotal.io/analyst-relations/agile-apps/gartner-thetransformationofmobilemiddleware-internal/The%20Transformation%20of%20Mobile%20Middleware.pdf?attredirects=0[Gartner Note]
 
-=== 3. Continous Delivery and Innovation best practices on Platform for Mobility
+=== 3. Continous Delivery and Innovation 
 
 Pivotal Labs has built 100's of Mobile Apps using these design principles of Microservices and delivered them on Pivotal Cloud Foundry. Dwayne Forde from the Cloud Foundry Mobile Services team at Pivotal discusses in this blog post link:http://blog.pivotal.io/cloud-foundry-pivotal/case-studies-2/how-pivotal-performs-continuous-delivery-of-mobile-services[How Pivotal Performs Continuous Delivery of Mobile Services] on Pivotal Cloud Foundry:
 
