@@ -27,7 +27,7 @@ For more detailed Technical Deck, refer to the pitch deck from Product Manager: 
 
 == Pivotal Cloud Foundry is "The Platform for Mobility."
 
-Many customers already have a mBaaS solution, and how does PCF fit into the picture. Refer to this document [link:content.adoc[Platform for Mobility] +
+Many customers already have a mBaaS solution. How does PCF fit into the picture. Refer to this document link:content.adoc[Platform for Mobility] +
 
 == Transit++ mobile application on Pivotal Cloud Foundry
 The Transit++ App is a sample mobile application which shows the public transportation routes for the city of Toronto.
