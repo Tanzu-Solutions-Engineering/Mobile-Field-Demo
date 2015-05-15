@@ -10,7 +10,9 @@
 
 === 1. Microservices based architecture 
 
-Mobile apps have resulted in highly exponential and dynamic workloads with zero downtime. They require a modern cloud platform which is highly scalable and secure with full control of data. Legacy backend systems can provide the enterprise data using Microservices on a enterprise cloud platform to serve the new Mobile first apps, which can 
+Mobile apps have resulted in highly exponential and dynamic workloads with zero downtime. They require a modern cloud platform which is highly scalable and highly secure and enterprises have full control of data. Legacy backend systems can provide the enterprise data using Microservices on a enterprise cloud platform to serve the new Mobile first apps.
+
+These apps developed on the "Platform for Mobility"
 
 * Scale up for dynamic workloads from Mobile Apps
 * Organized around a business functionality, do one thing, well
@@ -19,7 +21,7 @@ Mobile apps have resulted in highly exponential and dynamic workloads with zero 
 
 For more info on how to delivery mobile apps faster using microservices watch the video at: link:https://www.youtube.com/watch?v=xIXIFx22F98#t=328[The Mobile First World Deliver Mobile Apps Faster]
 
-=== 2. Current mBaas Solutions to a Enterprise PAAS 
+=== 2. Current mBaas Solutions to an Enterprise PAAS 
 
 Gartner predicts that Emerging cloud mobile back-end services threaten to replace mobile middleware for
 enterprise mobile app developers. As mBaaS services mature, the entry of general-purpose middleware and PaaS
@@ -41,55 +43,6 @@ is to use real devices. We have implemented a method that offers an automated 36
 development process, from the installation of a tile in Pivotal Cloud Foundry Ops Manager to delivery of end-user mobile 
 applications that use products such as the Push Notification Service."
 
-
-
-=== Behind the scenes - Microservices on the cloud platform
-The Transit mobile backend uses various Pivotal mobile services on the Pivotal Cloud Foundry Platform. 
-
-image:./images/Transit-App-5.png[Mobile Backend Design,scaledheight=30%]
-
-
-==== Datasync
-The Mobile App uses the Pivotal Data-sync mobile services to save user preferences, routes across devices. 
-
-*Datasync Workflow*
-
-image:./images/Transit-App-6.png[Mobile Data-sync Workflow,scaledheight=30%]
-
-
-Launch the Datasync Service Dashboard from here link:http://datasync-dashboard.mobile.piv-demo.com/metrics[Pivotal Data Synch]
-
-image:./images/Transit-App-10.png[Mobile Data-sync Services on Pivotal Cloud Foundry,scaledheight=30%]
-
-
-==== API Gateway
-
-image:./images/Transit-App-7.png[API Gateway Workflow,scaledheight=30%]
-
-image:./images/Transit-App-8.png[NextBus Transformation,scaledheight=30%]
-
-
-==== Push Notification
-Pivotal Cloud Foundry Push Notification Dashboards and Services
-
-*Push Notification Workflow*
-image:./images/Transit-App-9.png[Push Notification Workflow,scaledheight=30%]
-
-Launch the Push Notification Service Dashboard from here link:http://push-notifications-dashboard.mobile.piv-demo.com[Pivotal Push Notification]
-
-image:./images/Transit-App-11.png[Push Notification Services,scaledheight=30%]
-
-
-Create a Test Push Message to immediately deliver the message on your phone. 
-image:./images/Transit-App-16.png[Test Push Message,scaledheight=30%]
-
-
-==== Ops Manager
-Pivotal Cloud Foundry Ops Manager Configuration for Mobile Services
-
-Launch the Ops Manager from here link:https://opsmgr.mobile.piv-demo.com[Pivotal Operations Manager]
-
-image:./images/Transit-App-15.png[Ops Manager,scaledheight=30%]
 
 
 
