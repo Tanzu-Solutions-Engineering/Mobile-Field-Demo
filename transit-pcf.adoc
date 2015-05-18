@@ -36,7 +36,6 @@ Launch the Push Notification Service Dashboard from here link:http://push-notifi
 
 image:./images/Transit-App-11.png[Push Notification Services,scaledheight=30%]
 
-
 Create a Test Push Message to immediately deliver the message on your phone. 
 image:./images/Transit-App-16.png[Test Push Message,scaledheight=30%]
 
