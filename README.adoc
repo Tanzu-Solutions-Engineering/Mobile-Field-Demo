@@ -67,7 +67,7 @@ link:http://www.nextbus.com/predictor/stopSelector.jsp?a=ttc[NextBus] is a third
 The demo environment has the following Pivotal products installed and ready for you to demo. This environment is typically the latest GA products and is pre-confogured with the external vender services like Apple Push Notification Service (APNS) and Google OAuth. 
 
 User/Password: pdemo/mobile@123 +
-Org/Space: mobile/development
+Org/Space: tranist-demo/development
 
 * link:https://opsmgr.mobile.piv-demo.com[Pivotal Operations Manager]
 * link:https://console.mobile.piv-demo.com[Pivotal Cloud Foundry (Elastic Runtime)]
