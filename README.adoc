@@ -70,7 +70,7 @@ User/Password: pdemo/mobile@123 +
 Org/Space: tranist-demo/development
 
 * link:https://opsmgr.mobile.piv-demo.com[Pivotal Operations Manager]
-* link:https://app.corpdemo.fe.pivotal.io[Pivotal Cloud Foundry (Elastic Runtime)]
+* link:https://apps.corpdemo.fe.pivotal.io[Pivotal Cloud Foundry (Elastic Runtime)]
 * link:http://datasync-dashboard.corpdemo.fe.pivotal.io/metrics[Pivotal Data Synch]
 * link:http://gs-dashboard.corpdemo.fe.pivotal.io[Pivotal API Gateway]
 * link:http://push-notifications-dashboard.corpdemo.fe.pivotal.io[Pivotal Push Notification]
