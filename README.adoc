@@ -73,7 +73,7 @@ Org/Space: tranist-demo/development
 * link:https://apps.mobile.piv-demo.com[Pivotal Cloud Foundry (Elastic Runtime)]
 * link:http://datasync-dashboard.mobile.piv-demo.com/metrics[Pivotal Data Synch]
 * link:http://gs-dashboard.mobile.piv-demo.com[Pivotal API Gateway]
-* link:http://push-notifications-dashboard.mobile.piv-demo.com[Pivotal Push Notification]
+* link:http://push.mobile.piv-demo.com[Pivotal Push Notification]
 
 === Steps:
 . Download the Tranist++ application from XLStudio
