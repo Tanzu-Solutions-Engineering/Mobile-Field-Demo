@@ -95,6 +95,7 @@ The Transit++ iOS App is signed using Pivotal's Apple Enterprise Profile certifi
 We MUST not allow the binary to be installed on any device that does not belong to a Pivotal Employee. Failing to do so may prompt Apple to revoke our certificates which has a drastic impact on every internally built iOS application today.
 
 ==== Step 2 Launch the App and Authenticate using Google OAuth. 
+*** Pleas use pdemo/pivotal to log in. This is a temporary fix until we can integrate Google Oauth again ***
 
 image:./images/Transit-App-2.png[Launch,scaledheight=30%]
 
